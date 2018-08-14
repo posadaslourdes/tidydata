@@ -1,0 +1,50 @@
+CODEBOOK 
+*****Activity labels****
+activity/ activityName
+
+1/ WALKING
+2/ WALKING_UPSTAIRS
+3/ WALKING_DOWNSTAIRS
+4/ SITTING
+5/ STANDING
+6/ LAYING
+ 
+*****Features labels*****
+***Original labels
+The list of signals derived are as follows:
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBaodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+*****Orginal labels / New labels 
+std/ StandardDeviation
+mean/ MeanValue
+sma/ SignalMagnitudeArea
+energy/EnergyMeasure
+iqr/Interquartile range
+entropy/SignalEntropy
+arCoeff/ AutorregresionCoefficients
+maxInds / IndexOfTheFrequencyComponent
+meanFreq/ WeightedAverageOfTheFrequency
+Acc/ Accelerometer
+Gyro/ Gyroscope
+Mag/Magnitude
+BodyBody/ Body
+^t / Time-- leading t is based on time measurements.
+^f/ Freqquency---leading  f is based on frequency measurements.
+ 
